@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+}
+
+html{
+    font-family: 'Nunito', sans-serif;
+}
+
+body{
+    height: 1vh;
+    padding: 3% 8%;
+}
+
+header{
+    height: auto;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav h1{
+    font-size: 1.2rem;
+    font-weight: 4600;
+    text-transform: uppercase;
+}
+
+ul{
+    list-style: none;
+    font-size: .8rem;
+}
+
+main div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    padding: 10%;
+    line-height: 1.82;
+}
