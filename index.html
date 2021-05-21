@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/styles.css">
@@ -13,21 +14,70 @@
 <body>
     <header>
         <nav>
-            <h1>Simon A. Fernandes</h1>
+            <h1>
+                <a href="#home">Simon A. Fernandes</a>
+            </h1>
             <ul>
-                <li>Select Work</li>
-                <li>Resume</li>
-                <li>About + Connect</li>
+                <li><a href="home">Select Work</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#about">About + Connect</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <div>
-            <h2>-Simon is a Data Product Manager, Tinkerer, and Gadget Enthusiast in Venice Beach, CA</h2>
+        <div id="home" class="section">
+            <h2><i class="fas fa-minus"></i> Simon is a Data Product Manager, Tinkerer, and Gadget Enthusiast in Venice Beach, CA</h2>
         </div>
+        <div id="work" class="section">
+            <div class="work-item project1">
+                <p>Project 1</p>
+            </div>
+            <div class="work-item project2">
+                <p>Project 2</p>
+            </div>
+            <div class="work-item project3">
+                <p>Project 3</p>
+            </div>
+            <div class="work-item project4">
+                <p>Project 4</p>
+            </div>
+        </div>
+        <div id="resume" class="section">
+            <h3>My Resume</h3>
+            <p>Simply click on the image below to view my resume as a PDF</p>
+        </div>
+        <!-- <div id="about" class="section">
+            <div class="about-item item-l">
+                <h3>Senior Product Manager & Analytically Focused</h3>
+            </div>
+            <div class="about-item item-c">
+                <h4>About Simon</h4>
+                <p>At the end of the day, my goal is to view the product and its features from the eyes of the user and to create an optimized experience that eases pain points and brings joy.</p><br>
+                <p>As a former Web Engineer turned Product Manager, I understand what it means to build products that are high-quality, cohesive, and scalable. I have built awareness for the small details, which is helpful for working through requirements, visualizations, models, and prototypes with cross-functional team members. I feel at ease working with data scientists, engineers, creatives & other business-oriented individuals. I can appropriately approach problem-solving and actively maintain a holistic viewpoint through various phases.</p><br>
+                <p>I have multiple years of experience in a wide range of disciplines including entrepreneurship, engineering, data, analytics, internet marketing, conversion optimization, and UX. These experiences have given me unique insights into the product lifecycle and has allowed me to think through the entire customer journey while challenging our own assumptions.</p>
+            </div>
+            <div class="about-item item-c">
+            </div>
+            <div class="about-item item-c">
+
+            </div>
+            <div class="about-item item-c">
+
+            </div>
+            <div class="about-item item-l">
+                <h3>Let's Connect</h3>
+                <div class="">
+                    <i class="fab fa-instagram"><a href=""></a></i>
+                    <i class="fab fa-linkedin-in"><a href=""></a></i>
+                    <i class="fab fa-twitter"><a href=""></a></i>
+                </div>
+            </div>
+        </div> -->
     </main>
     <footer>
-
+            <p>
+                <a href="#home">Simon A. Fernandes | Sr. Product Manager</a>
+            </p>
     </footer>
 </body>
 </html>
