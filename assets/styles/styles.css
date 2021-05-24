@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+}
+
+html{
+    font-family: 'Nunito', sans-serif;
+}
+
+main div#work .project1{
+    background-color: #EE6C4D;
+}
+
+main div#work .project2{
+    background-color: #E0FBFC;
+}
+
+main div#work .project3{
+    background-color: #98C1D9;
+}
+
+main div#work .project4{
+    background-color: #3D5A80;
+}
+
+main div#about{
+    padding: 13% 0;
+    width: 100%;
+    height: auto;
+    border: 1px red solid;
+    display: flex;
+    flex-wrap: wrap;
+} 
+
+main div#about .about-item h4 {
+    font-size: 1.5rem;
+    padding: 0 0 7%;
+    text-align: center;
+}
+
+main div#about .about-item p {
+    line-height: 1.8;
+    color: rgb(191, 191, 191);
+}
+
+main div#about .item-l{
+    width: 100%;
+    height: 100px;
+    border: 1px red solid;
+}
+
+main div#about .item-c{
+    background-color: rgb(55, 0, 255);
+    border: 1px red solid;
+    width: 40%;
+    height: 750px;
+    padding: 0 8%;
+}

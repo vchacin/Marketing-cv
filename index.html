@@ -5,48 +5,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="assets/styles/tailwind.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/styles/styles.css">
     <title>Simon A. Fernandes –  Portfolio</title>
 </head>
-<body>
-    <header>
-        <nav>
+<body class="bg-gray-100 px-12 md:px-40 py-6 md:py-12">
+    <header class="relative w-full">
+        <nav class="w-full flex flex flex-wrap content-center justify-between">
             <h1>
-                <a href="#home">Simon A. Fernandes</a>
+                <a href="#home" class="uppercase tracking-widest md:tracking-wider text-xl font-semibold hover:text-gray-300 ease-out duration-700">Simon A. Fernandes</a>
             </h1>
-            <ul>
-                <li><a href="home">Select Work</a></li>
-                <li><a href="#resume">Resume</a></li>
-                <li><a href="#about">About + Connect</a></li>
+            <ul class="font-semibold text-gray-300 text-xs md:text-sm flex md:flex-row content-center">
+                <li><a href="home" class="hover:text-black ease-out duration-700 ml-4">Select Work</a></li>
+                <li><a href="#resume" class="hover:text-black ease-out duration-700 ml-4">Resume</a></li>
+                <li><a href="#about" class="hover:text-black ease-out duration-700 ml-4">About + Connect</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <div id="home" class="section">
-            <h2><i class="fas fa-minus"></i> Simon is a Data Product Manager, Tinkerer, and Gadget Enthusiast in Venice Beach, CA</h2>
+        <div id="home" class="md:px-20 py-20 md:py-40">
+            <h2 class="font-bold text-md md:text-4xl tracking-wider"><i class="fas fa-minus"></i> Simon is a Data Product Manager, Tinkerer, and Gadget Enthusiast in Venice Beach, CA</h2>
         </div>
-        <div id="work" class="section">
-            <div class="work-item project1">
+
+        <div id="work" class="w-full flex flex-wrap">
+            <div class="project1 w-1/2 h-20 md:h-80 text-center flex justify-center items-center">
                 <p>Project 1</p>
             </div>
-            <div class="work-item project2">
+            <div class="project2 w-1/2 h-20 md:h-80 text-center flex justify-center items-center">
                 <p>Project 2</p>
             </div>
-            <div class="work-item project3">
+            <div class="project3 w-1/2 h-20 md:h-80 text-center flex justify-center items-center">
                 <p>Project 3</p>
             </div>
-            <div class="work-item project4">
+            <div class="project4 w-1/2 h-20 md:h-80 text-center flex justify-center items-center">
                 <p>Project 4</p>
             </div>
         </div>
-        <div id="resume" class="section">
-            <h3>My Resume</h3>
-            <p>Simply click on the image below to view my resume as a PDF</p>
+
+        <div id="resume" class="w-full h-auto bg-red-200 flex flex-col items-center py-10 md:py-20">
+            <h3 class="text-base md:text-2xl font-bold pb-10 md:pb-20">My Resume</h3>
+            <p class="text-sm md:text-base text-center pb-10 md:pb-20">Simply click on the image below to view my resume as a PDF</p>
+            <a href="assets/img/Fernandes Simon.pdf" target="_blank"><img src="assets/img/preview.png" alt="curriculum preview" class="h-2/4"></a>
         </div>
-        <!-- <div id="about" class="section">
+
+        <div id="about" class="w-full h-auto bg-green-200">
             <div class="about-item item-l">
                 <h3>Senior Product Manager & Analytically Focused</h3>
             </div>
@@ -72,10 +77,10 @@
                     <i class="fab fa-twitter"><a href=""></a></i>
                 </div>
             </div>
-        </div> -->
+        </div>
     </main>
     <footer>
-            <p>
+            <p class="text-gray-400 flex flex-row-reverse text-xs md:text-base py-2 md:py-4">
                 <a href="#home">Simon A. Fernandes | Sr. Product Manager</a>
             </p>
     </footer>
